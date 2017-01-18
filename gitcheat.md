@@ -4,10 +4,15 @@
 
 
  git config --global user.name "[name]
+
  git config --global user.email "[email address]
+ 
  git config --list
+ 
  git init
- git remote add origin [URL of your remote repo]
+ 
+ git remote add origin [URL of your remote repo] #one-time thing
+ 
  git remote -v
 
  git status # status of the file (in github or no)
@@ -20,4 +25,4 @@
 
  git commit -m "[clear message describing the changes you made]" # committing all the changes I staged (in git add step) and with a message helpful for future you 
 
- git push origin master # for the original/first file
+ git push origin master # push it to the origin/master doc copy
